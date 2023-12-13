@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+.navbar{
+    box-shadow: 1px 1px 10px lightgrey;
+}
+.navbar-brand{
+    font-weight: 600;
+}
+.MuiPaper-root{
+    width: 15%;
+}
+
+
+.MuiPaper-root ul div div span{
+    font-weight: 400;
+    font-family: 'Poppins';
+}
+
+.adminLayout{
+    --bs-gutter-x: 0 !important;
+    height: calc(100vh - 76px);
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .MuiPaper-root{
+        width: 60%;
+        box-shadow: 1px 1px 10px lightgrey;
+    }
+    
+}
